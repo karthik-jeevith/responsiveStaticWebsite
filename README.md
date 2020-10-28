@@ -4,6 +4,6 @@ which is suitable for both mobile and desktop.
 
 
 link and picture credits:
-vidyalai.com
+vidyalai.com and 
 unsplash.com
 
