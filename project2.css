@@ -1,0 +1,340 @@
+
+
+body{
+      background-color:#fffac2;
+      font-family: 'Ubuntu', sans-serif;
+      line-height:1.7px;
+    }
+/******************************************************************************************************************************8*/
+/*The  page1 elements */
+
+h1{
+	color:#544d02;
+	font-size: 20px;
+}
+
+h2{
+	color: #423d01;
+}
+
+.navbar-inverse{
+	padding-top: 2%;
+	padding-bottom: 1%;
+	background-color:#8a7641;
+}
+#page1 #button1{
+	margin-top: 30px;
+}
+
+  .navbar-nav .dropdown{
+  	padding-top: 5px;
+  }
+
+.navbar-inverse .navbar-brand{
+    color: white;
+	font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	
+}
+div.container .row #space{
+	   border: 1px solid #fffcde;
+	   width: 100%;
+       border-radius: 10%;     /*  for rounded border*/
+       padding-left: 20px;
+       padding-right: 20px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+       /*margin-right:5px;*/
+	   background-color: #fffcde;
+	   
+    }
+
+ div.container .row #space h1{
+      padding-top: 5%;
+      padding-bottom: 3%;
+    }
+
+ div.container .row #space h4{
+  
+     padding-top: 10px;
+     font-size: 15px;
+    }
+
+ div.container .row #space p{
+ 	 padding-top: 20px;
+     font-size: 15px;
+
+ }
+
+img {
+  padding-top: 10%;
+  padding-left: 10%;
+  width: 100%;
+  height: auto;
+}
+
+#page1 #branches{
+	width: 100%;
+	margin-left: 0px;
+}
+
+hr.style-two {
+border: 0;
+height: 0;
+border-top: 1px solid rgba(240, 240, 240, 0.3);
+border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+/*********************************************************************************************************************************
+/* page2 elements */
+div.container .row #space2{
+       border: 1px solid #fffde8;
+       border-radius: 10%;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-bottom: 5%;
+       margin-top: 10px;
+       margin-bottom: 25px;
+       background-color:#fffde8; 
+    }
+
+div.container .row #space2 p {
+       padding-left: 30px;
+       padding-right: 30px;
+    }
+
+div.container .row #space2 h3 {
+       padding-left: 5px;
+       padding-right:5px;
+       margin-top: 30px;
+       font-size: 15px;
+       line-height: 1.5;
+       /*line-height:1px;*/
+    }
+#page2{
+	background-color: #f5f2f2;
+}
+
+#page2 #space2{
+	font-size: 15px;
+}
+
+#img2{ 
+	padding-bottom: 20px;
+}
+
+#space2 h2{
+	font-size: 25px;
+}
+
+/*******************************************************************************************************************************/
+
+/*page3 content start..*/
+
+.img3{
+	border: 1px solid gray;
+	width: 100%;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-left:1px ;
+}
+
+#my-pics{
+	border:2px solid #a18137;
+	width: 100%;
+	border-radius:3px;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	margin-left: 1px;
+
+}
+#page3{
+	border:2px solid #fffac2;
+	width:100%;
+	margin-top: 140px;
+}
+#page3 .fa-users{
+	color:#424242;
+}
+
+#space .carousel-indicator{
+	margin-left: 1px;
+	padding-left: 1px;
+}
+
+/************************************************************************************************************************/
+
+/*page 4 content start*/
+
+#space3{
+	background-color: #ad9144;
+}
+
+#space3i h4{
+	line-height: 1.5;
+	color: white;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+
+
+}
+
+#space3i {
+	margin-top: 60px;
+	border-right: 2px solid #f5f4f0;
+	margin-bottom: 30px;
+	font-size: 5px;
+}
+
+#space3ii{
+	width: 50%;
+	margin-top: 40px;
+	margin-left: 70px;
+	padding-bottom: 35px;
+
+}
+
+#contact .fa-phone-alt , .fa-envelope{
+	color: black;
+}
+
+#contact h4{
+   color: white;
+   font-size: 15px;
+}
+
+#contact h2{
+	color: #f0f0f0;
+	font-size: 20px;
+}
+
+/* ********************************* *************************************************************************************
+**************************************************** Desktop version ***********************************************
+*************************************************************************************************************** */
+
+@media only screen and (min-width: 1280px){
+
+	
+
+	/************************************************page 1 **********************************/
+
+	.navbar-inverse .navbar-brand{
+		padding-left: 0px;
+		padding-right: 30px;
+		color: white;
+		font-size: 40px;
+	}
+	
+	.navbar-inverse .navbar-nav>li>a{
+		color: white;
+		font-size: 30px;
+	}
+
+	#page1 .row #space11{
+		background-color: #f1faee;
+		border-radius: 25px;
+	}
+	
+	img {
+	  display: block;
+	  padding-top: 5%;
+	  padding-left: 10%;
+	  max-width: 95%;
+	  height: auto;
+	}
+	
+    #page1 h4{
+		font-size: 23px;
+		line-height: 1.5;
+	}
+
+	#page1 p{
+	    line-height: 70px;
+		font-size: 25px;
+	}
+
+	#page1 h1{
+		padding-top: 30px;
+		font-size: 35px;
+	}
+/* ******************************************** page 2********************************************************/
+
+
+
+div.container .row #space2 p {
+	padding-left: 30px;
+	padding-right: 30px;
+ }
+
+div.container .row #space2 h3 {
+	padding-left: 20px;
+	padding-right:20px;
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 1.5;
+	/*line-height:1px;*/
+ }
+#page2{
+ background-color: #f5f2f2;
+}
+
+#img2{
+ border: 1px solid #a18137; 
+ border-radius: 10px 50px; /*for ronded corner*/
+ margin-left: 20px;
+ margin-top: 50px;
+ padding-left: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ width: 100%;
+ height: 100%;
+}
+
+/**************************************************page 3********************************************/
+
+
+
+.img3{
+	border: 1px solid gray;
+	/*margin-top: 20px;*/
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+#my-pics{
+	border:4px solid #a18137;
+	border-radius:5px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+
+}
+#page3{
+	border:2px solid #fffac2;
+	width: 550px;
+	margin: 40px 60px;
+	margin-top: 140px;
+	padding-right: 0px;
+	padding-left: 30px;
+}
+#page3 .fa-users{
+	color:#424242;
+}
+
+/* ********************************************************* page4 ****************************************/
+
+ 
+ #contact h2{
+
+	padding-top: 110px;
+	 font-size: 30px;
+ }
+
+ #space3 h4{
+	 font-size: 20px;
+ }
+}

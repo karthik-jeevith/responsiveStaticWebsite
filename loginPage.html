@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login page</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+		function validate()
+		{
+			var mail = document.querySelector("mail");
+			var pass = document.querySelector("Pass");
+			if(mail.value.trim()=="" || pass.value.trim()=="")
+			{
+				alert("no blank value allowed");
+				return false;
+			}
+			else{
+				return true;
+			}
+
+		}
+</script>
+<!-- ************** Style attribue *************************************************************8 -->
+
+<style type="text/css">
+	#email{
+		width: 300px;
+	}
+	#password{
+		width:300px;
+	}
+	#log{
+
+		padding-left: 35%;
+		padding-top: 17%;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	
+</style>
+</head>
+
+
+
+
+
+<!--************************************ body part start..********************************************* -->
+
+<body>
+<div class="container">
+
+ <div id="log">
+ 	   <h2>Login to Explore</h2>
+ 	   <br>
+       <form onsubmit="validate()" action="loginvalid.html">
+
+ 	     <div class="form-group">
+ 	     <span> <input type="email" name="mail" id="email" placeholder="E-mail" class="form-control"  required=""> </span><!-- .form-control is major-->
+ 	     </div>
+
+ 	     <div class="form-group">
+ 	        <!-- <label for="password">Password</label> -->
+ 	    <input type="Password" name="pass" id="password"  placeholder="Password" class="form-control"  required="">
+ 	    </div>
+        <button class="btn btn-success ">submit</button>
+ </form>
+</div>
+</div>
+</body>
+</html>
